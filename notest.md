@@ -1,7 +1,7 @@
 https://www.djangoproject.com/
 
 ```
-pip install Django==3.1.2
+pip install Django
 ```
 
 1. Tworzenie nowego projektu > przy pomocy pliku django-admin.py
