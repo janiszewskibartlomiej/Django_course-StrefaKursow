@@ -39,3 +39,10 @@ tworzenie tabel:
 ```
 python manage.py migrate
 ```
+
+aktualizacji np modeli:
+```
+python manage.py makemigrations
+```
+
+
