@@ -23,3 +23,19 @@ python manage.py runserver
 ```
 python manage.py startapp nazwa_aplikacji
 ```
+
+4. Przygotowanie bazy danych
+
+otwieramy plik settings.py i ustawiamy LANGUAGE_CODE = 'pl'
+
+trzeba ustawić dane dotyczace bazy danych :
+
+'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
+        
+baze sqlite mozna aprzegladac na firefox  >> https://addons.mozilla.org/pl/firefox/addon/sqlite-manager-webext/
+
+tworzenie tabel:
+```
+python manage.py migrate
+```
